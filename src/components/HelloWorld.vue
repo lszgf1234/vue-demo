@@ -92,15 +92,30 @@ export default {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
-  }
+  },
+  methods: {
+      test(){
+        console.log(1)
+      },
+  },
+  created (){
+      this.test();
+  },
+
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="styl">
+  /*@import "../css/test.css";*/
+  @import "../css/test1.scss";
+  /*@import "../css/test2.styl";*/
+  /*@import "../css/test3.less";*/
 h1, h2 {
   font-weight: normal;
 }
+
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -112,4 +127,8 @@ li {
 a {
   color: #42b983;
 }
+
+.hello
+  h1
+    color blue
 </style>
