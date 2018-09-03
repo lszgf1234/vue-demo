@@ -2,7 +2,7 @@
   <div class="hello">
     <h1>目录</h1>
     <ul>
-      <li ><a href=""></a></li>
+      <li><a href=""></a></li>
     </ul>
   </div>
 </template>
@@ -22,7 +22,7 @@
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style>
+<style lang="stylus">
 
   h1, h2 {
     font-weight: normal;
@@ -41,4 +41,6 @@
   a {
     color: #42b983;
   }
+
+
 </style>
