@@ -73,8 +73,7 @@ module.exports = {
         use: [
           'vue-style-loader',
           'css-loader',
-          'stylus-loader',
-          'sass-loader',
+
 
         ],
       },

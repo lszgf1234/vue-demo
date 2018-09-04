@@ -106,11 +106,8 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang="styl">
-  /*@import "../css/test.css";*/
-  @import "../css/test1.scss";
-  /*@import "../css/test2.styl";*/
-  /*@import "../css/test3.less";*/
+<style lang="scss">
+
 h1, h2 {
   font-weight: normal;
 }
@@ -128,7 +125,4 @@ a {
   color: #42b983;
 }
 
-.hello
-  h1
-    color blue
 </style>
