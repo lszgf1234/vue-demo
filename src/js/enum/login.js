@@ -1,9 +1,12 @@
-
+/**
+ *eg1: loginStatus 没有国际化
+ *eg2: registerStatus 已经国际化
+ *
+ * */
 let loginStatus = [{
   key: 'phone',
   name: '手机号注册',
   value: 0,
-  placeholder: '请输入手机号'
 }, {
   key: 'account',
   name: '账号密码注册',
@@ -11,12 +14,11 @@ let loginStatus = [{
 }];
 let registerStatus = [{
   key: 'phone',
-  name: '手机号注册',
+  name: INTERNST.enum.loginStatus.phone,
   value: 0,
-  placeholder: '请输入手机号'
 }, {
   key: 'account',
-  name: '账号密码注册1111',
+  name: INTERNST.enum.loginStatus.account,
   value: 1,
 }];
 

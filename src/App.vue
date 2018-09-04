@@ -5,7 +5,9 @@
 </template>
 
 <script>
+  import './js/internat'
   import './js/enum'
+
   console.log(ENUM)
   export default {
     name: 'App'
